@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{% static "app_1/style.css" %}">
   </head>
   <body>
-    <h1 style="background: #000">This is app 1 y</h1>
+    <h1>This is app 1 y</h1>
     <p>
       this is paragraph. Lorem ipsum dolor sit amet consectetur adipisicing
       elit. Molestias placeat assumenda blanditiis, impedit eveniet dolore
@@ -16,5 +16,21 @@
       ipsum placeat tempore alias. Aliquid, dolorem.
     </p>
     <button>Click Me</button>
+
+    <h1>This First app</h1>
+    <p>
+      this is paragraph. Lorem ipsum dolor sit amet consectetur adipisicing
+      elit. Molestias placeat assumenda blanditiis, impedit eveniet dolore
+      deleniti aut autem excepturi temporibus. Facilis praesentium nulla at
+      ipsum placeat tempore alias. Aliquid, dolorem.
+    </p>
+    <button>Click Me</button>
+
+    <br />
+    <a href="{% url 'app1' %}">go to app_1</a>
+    <br />
+    <a href="{% url 'app_2' %}">go to app_2</a>
+    <br />
+    <a href="{% url 'app_3' %}">go to app_3</a>
   </body>
 </html>
